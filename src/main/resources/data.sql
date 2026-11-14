@@ -7,9 +7,11 @@ insert into user_account (email, display_name, role, created_at) values
     ('firma@example.com',       'Firma', 'PARTNER', current_timestamp),
     ('admin@example.com',       'Admin', 'ADMIN',   current_timestamp);
 
--- LAB 01: Wasze konta (zmieńcie na swoje dane, rola USER)
--- insert into user_account (email, display_name, role, created_at) values
---     ('imie.nazwisko@student.merito.pl', 'Imię', 'USER', current_timestamp);
+-- LAB 01: konta zespołu
+insert into user_account (email, display_name, role, created_at) values
+    ('wrx82059@student.wroclaw.merito.pl', 'Wiktor', 'USER', current_timestamp),
+    ('s356629@student.wroclaw.merito.pl',  'Szymon', 'USER', current_timestamp),
+    ('wrx82057@student.wroclaw.merito.pl', 'Jakub',  'USER', current_timestamp);
 
 -- ===== LAB 02 · champion =====
 insert into champion (name, title, role, release_date, health, mana, attack_damage, armor) values
